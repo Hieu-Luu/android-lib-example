@@ -11,6 +11,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.fragment.app.Fragment
+import androidx.viewbinding.BuildConfig
 import androidx.viewbinding.ViewBinding
 import java.lang.Exception
 
