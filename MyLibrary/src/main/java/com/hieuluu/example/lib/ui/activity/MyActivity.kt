@@ -1,13 +1,11 @@
 package com.hieuluu.example.lib.ui.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.viewbinding.ViewBinding
 import com.hieuluu.example.lib.R
 import com.hieuluu.example.lib.core.BaseActivity
 import com.hieuluu.example.lib.databinding.ActivityMyBinding
-
 class MyActivity : BaseActivity() {
     private lateinit var binding: ActivityMyBinding
 

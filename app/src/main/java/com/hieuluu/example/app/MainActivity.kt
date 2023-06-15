@@ -1,4 +1,4 @@
-package com.hieuluu.example.androidlib
+package com.hieuluu.example.app
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,8 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.hieuluu.example.androidlib.ui.theme.AndroidLibraryExampleTheme
-
+import com.hieuluu.example.app.ui.theme.AndroidLibraryExampleTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

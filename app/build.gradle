@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.hieuluu.example.androidlib'
+    namespace 'com.hieuluu.example.app'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.hieuluu.example.androidlib"
+        applicationId "com.hieuluu.example.app"
         minSdk 21
         targetSdk 33
         versionCode 1
@@ -47,7 +47,8 @@ android {
 }
 
 dependencies {
-    implementation project(':MyLibrary')
+//    implementation project(':MyLibrary')
+    implementation 'com.github.Hieu-Luu:android-lib-example:87cce89b33'
 
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation platform('org.jetbrains.kotlin:kotlin-bom:1.8.0')

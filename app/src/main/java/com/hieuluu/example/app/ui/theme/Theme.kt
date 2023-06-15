@@ -1,4 +1,4 @@
-package com.hieuluu.example.androidlib.ui.theme
+package com.hieuluu.example.app.ui.theme
 
 import android.app.Activity
 import android.os.Build
